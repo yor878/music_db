@@ -66,7 +66,7 @@ Los impedimentos son problemas que pueden retrasar el desarrollo del Sprint.
 
 ---
 
-## Resultado esperado del Sprint
+## Definición de hecho 
 
 Al finalizar el Sprint se debe contar con:
 
@@ -77,5 +77,3 @@ Al finalizar el Sprint se debe contar con:
 * ✅ Interfaz funcional y responsive.
 * ✅ Proyecto almacenado en GitHub con historial de commits.
 * ✅ Pruebas funcionales del sistema.
-
-Este Sprint Backlog está adaptado específicamente para un proyecto de **Flutter (Dart) utilizando Firebase Firestore** y cumple con una estructura típica de metodologías ágiles (Scrum).
