@@ -193,15 +193,15 @@ And regresa a la lista de canciones.
 ```
 Product Backlog Priorizado
 
-Prioridad	ID	Épica	Historia de Usuario	Estado
-
-1	US-01	Gestión de Usuarios	Registro de usuario	Pendiente
-2	US-02	Gestión de Usuarios	Inicio de sesión	Pendiente
-3	US-03	Gestión de Usuarios	Cerrar sesión	Pendiente
-4	US-04	CREATE	Registrar canción	Pendiente
-5	US-05	READ	Consultar canciones	Pendiente
-6	US-06	UPDATE	Editar canción	Pendiente
-7	US-07	DELETE	Eliminar canción	Pendiente
+| Prioridad |	ID	| Épica |	Historia de Usuario	| Estado |
+|---|---|---|---|---|
+| 1|	US-01 |	Gestión de Usuarios	| Registro de usuario | Pendiente |
+| 2| US-02	|Gestión de Usuarios	| Inicio de sesión	| Pendient |
+| 3|	US-03	| Gestión de Usuarios	| Cerrar sesión	| Pendiente |
+| 4|	US-04	| CREATE	Registrar | canción	| Pendiente |
+| 5|	US-05	| READ	Consultar | canciones	| Pendiente |
+| 6|	US-06	| UPDATE	Editar | canción	| Pendiente |
+| 7|	US-07	| DELETE	Eliminar | canción	| Pendiente |
 
 Relación con CRUD
 
