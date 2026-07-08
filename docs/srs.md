@@ -1,7 +1,4 @@
 # SRS (Software Requirements Specification)
-
-## Sistema CRUD de Música
-
 **Tecnologías:** Flutter (Dart) + Firebase Firestore + GitHub
 
 ---
