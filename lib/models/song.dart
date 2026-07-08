@@ -1,41 +1,36 @@
-import '../models/song.dart';
+class Song {
+  final String id;
+  final String title;
+  final String artist;
+  final String album;
+  final String genre;
+  final int releaseYear;
 
-List<Song> songs = [
+  Song({
+    required this.id,
+    required this.title,
+    required this.artist,
+    required this.album,
+    required this.genre,
+    required this.releaseYear,
+  });
 
-Song(
-id: "1",
-title: "Bohemian Rhapsody",
-artist: "Queen",
-album: "A Night at the Opera",
-genre: "Rock",
-year: 1975,
-),
-
-Song(
-id: "2",
-title: "Billie Jean",
-artist: "Michael Jackson",
-album: "Thriller",
-genre: "Pop",
-year: 1982,
-),
-
-Song(
-id: "3",
-title: "Smells Like Teen Spirit",
-artist: "Nirvana",
-album: "Nevermind",
-genre: "Grunge",
-year: 1991,
-),
-
-Song(
-id: "4",
-title: "Shape of You",
-artist: "Ed Sheeran",
-album: "Divide",
-genre: "Pop",
-year: 2017,
-),
-
-];
+  // Copiar objeto para modificaciones seguras
+  Song copyWith({
+    String? id,
+    String? title,
+    String? artist,
+    String? album,
+    String? genre,
+    int? releaseYear,
+  }) {
+    return Song(
+      id: id ?? this.id,
+      title: title ?? this.title,
+      artist: artist ?? this.artist,
+      album: album ?? this.album,
+      genre: genre ?? this.genre,
+      releaseYear: releaseYear ?? this.releaseYear,
+    );
+  }
+}
